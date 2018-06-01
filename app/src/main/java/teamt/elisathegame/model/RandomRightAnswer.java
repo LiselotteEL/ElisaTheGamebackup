@@ -10,7 +10,7 @@ import java.util.Random;
 
 public class RandomRightAnswer {
 
-    private int amountOfTotalRightAnswerTemp;
+   private int amountOfTotalRightAnswerTemp;
 
     public String findOneRandomRightAnswer(DB_Connect con, String DBQuestionReference, String amountOfRightAnswers){
         String rightAnswer = "rightAnswer_";
@@ -23,4 +23,5 @@ public class RandomRightAnswer {
 
         return rightAnswer + Integer.toString(randomRightAnswerNo);
     }
+
 }
